@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"grid"
-	],
-	"name" : "Board",
+	"instvars" : [ ],
+	"name" : "SimpleBlock",
 	"type" : "normal"
 }
