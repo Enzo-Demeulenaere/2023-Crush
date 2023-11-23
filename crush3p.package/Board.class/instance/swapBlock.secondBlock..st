@@ -2,6 +2,8 @@ as yet unclassified
 swapBlock: firstBlock secondBlock: secondBlock
 
 	| firstBlockX firstBlockY |
+	(firstBlock canSwapWith: secondBlock) ifFalse: [ ^ self ].
+	
 	firstBlockX := firstBlock positionX.
 	firstBlockY := firstBlock positionY.
 
