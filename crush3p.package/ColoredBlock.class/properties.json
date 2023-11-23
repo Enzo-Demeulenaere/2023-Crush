@@ -1,15 +1,15 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "crush3p-Tests",
+	"super" : "Block",
+	"category" : "crush3p",
 	"classinstvars" : [ ],
 	"pools" : [
 		"ColorsOfBlock"
 	],
 	"classvars" : [ ],
 	"instvars" : [
-		"board"
+		"color"
 	],
-	"name" : "BoardTests",
+	"name" : "ColoredBlock",
 	"type" : "normal"
 }

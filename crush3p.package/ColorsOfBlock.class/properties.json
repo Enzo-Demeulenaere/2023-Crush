@@ -1,11 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "Block",
+	"super" : "SharedPool",
 	"category" : "crush3p",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"BLUE",
+		"GREEN",
+		"RED",
+		"YELLOW"
+	],
 	"instvars" : [ ],
-	"name" : "SimpleBlock",
+	"name" : "ColorsOfBlock",
 	"type" : "normal"
 }
