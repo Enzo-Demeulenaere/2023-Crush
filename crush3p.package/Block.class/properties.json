@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"score"
+		"score",
+		"positionX",
+		"positionY"
 	],
 	"name" : "Block",
 	"type" : "normal"
