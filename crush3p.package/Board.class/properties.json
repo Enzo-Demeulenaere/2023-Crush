@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"grid"
+		"grid",
+		"totalScore"
 	],
 	"name" : "Board",
 	"type" : "normal"
