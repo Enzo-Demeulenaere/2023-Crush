@@ -1,7 +1,7 @@
 accessing
 title
 
-	| title playButton|
+	| title playButton |
 	playButton := self playButton.
 	title := BlElement new background: Color veryDarkGray.
 	title constraintsDo: [ :c |
