@@ -1,0 +1,4 @@
+default encoding
+textualMapCharacter 
+
+	^ $G

@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "MygBoard",
+	"super" : "ColoredBlock",
 	"category" : "crush3p",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"totalScore"
-	],
-	"name" : "Board",
+	"instvars" : [ ],
+	"name" : "RedBlock",
 	"type" : "normal"
 }

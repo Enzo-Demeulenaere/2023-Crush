@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "MygBoard",
-	"category" : "crush3p",
+	"super" : "TestCase",
+	"category" : "crush3p-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"totalScore"
+		"initializedBoard"
 	],
-	"name" : "Board",
+	"name" : "CrImporterTest",
 	"type" : "normal"
 }
