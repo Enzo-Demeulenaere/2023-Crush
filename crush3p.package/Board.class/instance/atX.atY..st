@@ -1,3 +1,4 @@
 accessing
 atX: x atY: y
-	^ self grid atColumn: x atRow: y.
+	
+	^ self grid atColumn: y atRow: x.
