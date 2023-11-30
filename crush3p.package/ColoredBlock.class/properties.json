@@ -3,13 +3,9 @@
 	"super" : "Block",
 	"category" : "crush3p",
 	"classinstvars" : [ ],
-	"pools" : [
-		"ColorsOfBlock"
-	],
+	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"color"
-	],
+	"instvars" : [ ],
 	"name" : "ColoredBlock",
 	"type" : "normal"
 }
