@@ -3,9 +3,7 @@
 	"super" : "TestCase",
 	"category" : "crush3p-Tests",
 	"classinstvars" : [ ],
-	"pools" : [
-		"ColorsOfBlock"
-	],
+	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"board"
