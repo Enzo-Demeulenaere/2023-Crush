@@ -1,5 +1,5 @@
 initialization
 initialize 
 	super initialize.
-	grid := CTNewArray2DXAndY width: 20 height: 20.
+	grid := CTNewArray2DRowsAndColumns width: 20 height: 20.
 	totalScore := 0.
