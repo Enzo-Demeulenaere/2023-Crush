@@ -21,6 +21,7 @@ playButton
 			          c frame vertical alignCenter.
 			          c horizontal exact: 200 ].
 
+
 	labelText := 'Play' asRopedText
 		             foreground: Color white;
 		             fontSize: 16;

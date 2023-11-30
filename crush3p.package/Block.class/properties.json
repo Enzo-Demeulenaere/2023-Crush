@@ -4,7 +4,9 @@
 	"category" : "crush3p",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Icons"
+	],
 	"instvars" : [
 		"score",
 		"positionX",
