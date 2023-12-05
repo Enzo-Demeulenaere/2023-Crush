@@ -2,9 +2,9 @@ tests
 testThreeSameColorNotAligned
 
 	| firstBlock secondBlock thirdBlock |
-	firstBlock := ColoredBlock newBlue.
-	secondBlock := ColoredBlock newBlue.
-	thirdBlock := ColoredBlock newBlue.
+	firstBlock := BlueBlock new.
+	secondBlock := BlueBlock new.
+	thirdBlock := BlueBlock new.
 "firstBlock color"
 "secondBlock color"
 "thirdBlock color"

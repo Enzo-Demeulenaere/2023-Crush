@@ -2,5 +2,5 @@ tests
 testDefaultScoreFromBlock
 
 	| block |
-	block := ColoredBlock newBlue.
+	block := BlueBlock new.
 	self assert: (block score) equals: 1.

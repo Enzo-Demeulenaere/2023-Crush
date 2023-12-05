@@ -2,8 +2,8 @@ tests
 testBlockCantSwap
 
 	| firstBlock secondBlock |
-	firstBlock := SimpleBlock new.
-	secondBlock := SimpleBlock new.
+	firstBlock := ColoredBlock new.
+	secondBlock := ColoredBlock new.
 
 	board placeBlock: firstBlock atX: 1 atY: 1.
 	board placeBlock: secondBlock atX: 3 atY: 1.

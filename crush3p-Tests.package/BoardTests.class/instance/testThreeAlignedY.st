@@ -2,9 +2,9 @@ tests
 testThreeAlignedY
 
 	| firstBlock secondBlock thirdBlock |
-	firstBlock := ColoredBlock newBlue.
-	secondBlock := ColoredBlock newGreen.
-	thirdBlock := ColoredBlock newRed.
+	firstBlock := BlueBlock new.
+	secondBlock := GreenBlock new.
+	thirdBlock := RedBlock new.
 	
 	board placeBlock: firstBlock atX: 1 atY: 1.
 	board placeBlock: secondBlock atX: 1 atY: 2.
