@@ -10,6 +10,7 @@ open
 	bar addMenu: helpMenu.
 
 	display := BlSpace new.
+	display title: 'Crush3P'.
 	display root addChild: title.
 	display root addChild: bar.
 	display extent: 800 @ 800.

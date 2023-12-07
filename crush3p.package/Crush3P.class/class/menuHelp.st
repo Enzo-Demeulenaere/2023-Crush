@@ -41,6 +41,7 @@ Bon jeu !' asRopedText foreground: Color white).
 				             c vertical fitContent ].
 		container addChild: lab.
 		space := BlSpace new.
+		space title: 'Crush3P - Help'.
 		space root
 			layout: BlFrameLayout new;
 			addChild: container;

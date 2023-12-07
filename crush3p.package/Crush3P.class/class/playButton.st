@@ -6,7 +6,7 @@ playButton
 		          background: Color gray;
 		          layout: BlFrameLayout new;
 		          geometry: (BlRoundedRectangleGeometry cornerRadius: 10);
-					 margin: (BlInsets
+		          margin: (BlInsets
 				           top: 150
 				           right: 16
 				           bottom: 8
@@ -19,7 +19,8 @@ playButton
 		          constraintsDo: [ :c |
 			          c frame horizontal alignCenter.
 			          c frame vertical alignCenter.
-			          c horizontal exact: 200 ].
+			          c horizontal exact: 200 ];
+		          when: BlClickEvent do: [ BoardElement launch ].
 
 
 	labelText := 'Play' asRopedText

@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Block",
-	"category" : "crush3p",
+	"category" : "crush3p-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
