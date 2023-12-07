@@ -8,6 +8,7 @@
 		"Icons"
 	],
 	"instvars" : [
+		"board",
 		"score",
 		"positionX",
 		"positionY"

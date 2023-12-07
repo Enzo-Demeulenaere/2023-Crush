@@ -8,6 +8,6 @@
 	"instvars" : [
 		"board"
 	],
-	"name" : "BoardTests",
+	"name" : "BoardAlignmentTest",
 	"type" : "normal"
 }

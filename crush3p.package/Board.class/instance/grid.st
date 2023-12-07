@@ -1,3 +1,3 @@
 accessing
 grid
-	^ grid.
+	^ grid
