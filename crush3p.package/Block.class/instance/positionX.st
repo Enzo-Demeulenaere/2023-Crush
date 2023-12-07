@@ -1,3 +1,4 @@
 accessing
 positionX
-	^ positionX
+
+	^ position x

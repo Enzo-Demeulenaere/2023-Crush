@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "MygAbstractBox",
 	"category" : "crush3p",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,10 +8,7 @@
 		"Icons"
 	],
 	"instvars" : [
-		"board",
-		"score",
-		"positionX",
-		"positionY"
+		"score"
 	],
 	"name" : "Block",
 	"type" : "normal"

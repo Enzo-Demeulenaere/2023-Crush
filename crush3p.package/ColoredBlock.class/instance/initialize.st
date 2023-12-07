@@ -1,3 +1,6 @@
 accessing
 initialize
-	 self score: 1.
+
+
+	super initialize.
+	self score: 1

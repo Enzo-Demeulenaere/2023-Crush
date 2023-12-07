@@ -1,3 +1,4 @@
 accessing
-positionY: newPosition
-	positionY:= newPosition.
+positionY: y
+
+	position setX: position x setY: y
