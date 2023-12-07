@@ -1,6 +1,11 @@
 private
 launch 
-^ self openWithModel: (Board new launchFromString: 'BBGGY
-RBRBG
-RRBY
-RBRBG')
+^ self openWithModel: (Board new launchFromString: 'RBRBGBYGBRRG
+RBRBGBYGBRRG
+BRBYYG RGRBG
+YRBYYGBRGRBG
+R RRBYYGBRGR
+B BRGRBGRRBY
+YBRGRBGRRBYY
+GBBGGYGYBYYG
+RBRGRBGYGY')
