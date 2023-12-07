@@ -8,6 +8,6 @@ openWithModel: aTField
 		                 yourself.
 	space root addChild: aFieldElement.
 	space pulse
-		extent: 500 @ 500;
-		resizable: false;
+		extent: 1900 @ 1200;
+		resizable: true;
 		show

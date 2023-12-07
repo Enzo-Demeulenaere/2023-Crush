@@ -8,10 +8,9 @@ board: aTBoard
 		aLayoutConstraints horizontal matchParent.
 		aLayoutConstraints vertical matchParent ].
 	self padding: (BlInsets all: 5).
-	Halt now.
 	self layout columnCount: board grid width.
 	
-	"board grid do: [ :aBlock |
+	board grid do: [ :aBlock |
 		| blockElement |
-		blockElement := (BlockElement block: aBlock) board: aTBoard.
-		self addChild: blockElement ]"
+		blockElement := ((aBlock visualInstance) block: aBlock) board: aTBoard.
+		self addChild: blockElement ]
