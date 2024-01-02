@@ -22,3 +22,8 @@ initialize
 		constraintsDo: [ :aLayoutConstraints |
 		aLayoutConstraints horizontal matchParent.
 		aLayoutConstraints vertical matchParent ].
+	
+
+self addEventHandlerOn: BlMouseUpEvent do: [ :anEvent |
+		anEvent primaryButtonPressed
+			ifTrue: [ self select ] ]
