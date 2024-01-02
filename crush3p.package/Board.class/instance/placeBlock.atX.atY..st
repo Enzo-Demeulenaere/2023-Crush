@@ -1,5 +1,5 @@
 as yet unclassified
 placeBlock: aSimpleBlock atX: x atY: y 
 	self grid atColumn: y atRow: x put: aSimpleBlock.
-	aSimpleBlock positionX: x.
-	aSimpleBlock positionY: y.
+	aSimpleBlock positionX: y.
+	aSimpleBlock positionY: x.
