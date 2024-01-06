@@ -30,6 +30,8 @@ Project name : crush3p
 Protocol : HTTPS  
 - Le projet crush3p devrait maintenant être présent dans vos Repositories, double click dessus. Les packages apparaissent, click droit > Load sur chaque package pour les charger.
 
+![https://github.com/3xtasio/crush3p/screen](screen/crush3p.png)
+
 ## Instructions d'utilisation
 
 Pour lancer notre projet, dans un Playground lancez ce bloc de code : 
