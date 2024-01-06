@@ -5,9 +5,9 @@ swapIfCombo: firstBlock secondBlock: secondBlock
 	self swapBlock: firstBlock secondBlock: secondBlock.
 	comboList := self checkBoardAlignments.
 	comboList isEmpty
-		ifTrue: [ self swapBlock: firstBlock secondBlock: secondBlock ]
+		ifTrue: [ self swapBlock: firstBlock secondBlock: secondBlock. ^true]
 		ifFalse: [
 			self replaceBlocks: comboList.
 			[ comboList isNotEmpty ] whileTrue: [
 				comboList := self checkBoardAlignments.
-				self replaceBlocks: comboList ] ]
+				self replaceBlocks: comboList.]. ^false]
