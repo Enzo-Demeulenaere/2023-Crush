@@ -4,7 +4,7 @@ Myg Projet - Pour notre jeu candy crush en Pharo
 ## Auteurs
 Oysiss : Simon Lagneau  
 3xtasio : Paul Vanhee  
-Trevor Bruniaux (pas présent dans la liste des contributeurs, on ne sait pas pourquoi)  
+Yamimutu : Trevor Bruniaux (la plupart de ses commits ne sont pas présent sur github, on ne sait pas pourquoi, mais ils sont visible via l'exporateur de repository git sur Pharo)  
 
 ## Instructions d'installation
 Dans un Playground lancez ce bloc de code :
