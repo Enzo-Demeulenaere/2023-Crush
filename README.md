@@ -56,3 +56,11 @@ Néanmoins, certains points n'ont pas pu être testés. Par exemple, lorsqu'un c
 - La façon dont nous avons construit notre hiérarchie d'héritage pour Block nous permet d'utiliser côté UI le polymorphisme dans la méthode select de BlockElement.
 Cela nous a également permis de rendre un GroundBlock impossible à bouger sans utilisation de conditions pour vérifier la classe d'un Block.  
 Nous avons essayé d'avoir un code qui soit extensible/refactorable facilement.
+
+- Pour la partie graphique, nous avons d'abord commencé par analyser la partie visuelle des projets existants (Sokoban, Takuzu..).
+A partir de ça, nous avons su tirer les éléments principaux de conception.
+Le menu principal se base sur des éléments de Bloc.
+
+- Pour la création du plateau de jeu (BoardElement), nous avons créé l'objet visuel à partir d'un Board.
+Un "Block" a une version visuelle "BlockElement".
+Tous les blocs de couleurs ont leur représentation visuelle.
