@@ -1,4 +1,0 @@
-default encoding
-textualMapCharacter 
-
-	^ $S
