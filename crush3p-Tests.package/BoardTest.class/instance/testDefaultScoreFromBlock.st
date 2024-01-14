@@ -3,4 +3,4 @@ testDefaultScoreFromBlock
 
 	| block |
 	block := BlueBlock new.
-	self assert: (block score) equals: 1.
+	self assert: block score equals: 1

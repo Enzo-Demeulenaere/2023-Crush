@@ -5,4 +5,4 @@ testMultipleLineHorizontalBlockAligned
 	board launchFromString: 'BBBYB
 GGGRR'.
 	alignedBlocks := board checkHorizontalBlockAlignments.
-	self assert: (alignedBlocks size) equals: 6.
+	self assert: alignedBlocks size equals: 6

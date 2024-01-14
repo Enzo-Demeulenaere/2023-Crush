@@ -5,4 +5,4 @@ testThreeHorizontalBlockAligned
 	board launchFromString: 'BBBYB
 GR'.
 	alignedBlocks := board checkHorizontalBlockAlignments.
-	self assert: (alignedBlocks size) equals: 3.
+	self assert: alignedBlocks size equals: 3

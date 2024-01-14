@@ -2,9 +2,8 @@ tests
 testThreeVerticalBlockAligned
 
 	| alignedBlocks |
-	board launchFromString: 
-'BRRRR
+	board launchFromString: 'BRRRR
 BBBBB
 BBBBB'.
 	alignedBlocks := board checkVerticalBlockAlignments.
-	self assert: (alignedBlocks size) equals: 3.
+	self assert: alignedBlocks size equals: 3

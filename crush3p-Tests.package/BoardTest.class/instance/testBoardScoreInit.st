@@ -1,4 +1,4 @@
 tests
 testBoardScoreInit
 
-	self assert: (board totalScore) equals: 0.
+	self assert: board totalScore equals: 0

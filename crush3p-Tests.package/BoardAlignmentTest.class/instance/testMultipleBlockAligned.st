@@ -2,11 +2,10 @@ tests
 testMultipleBlockAligned
 
 	| alignedBlocks |
-	board launchFromString: 
-'BBBBR
+	board launchFromString: 'BBBBR
 BRYBY
 BBYBY
 RYRYR
 RRRRR'.
 	alignedBlocks := board checkBoardAlignments.
-	self assert: (alignedBlocks size) equals: 13.
+	self assert: alignedBlocks size equals: 13

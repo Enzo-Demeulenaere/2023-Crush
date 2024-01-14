@@ -2,11 +2,10 @@ tests
 testMultipleLineVerticalBlockAligned
 
 	| alignedBlocks |
-	board launchFromString: 
-'BBRRR
+	board launchFromString: 'BBRRR
 BBYYY
 BBYYY
 RRRRR
 RRRRR'.
 	alignedBlocks := board checkVerticalBlockAlignments.
-	self assert: (alignedBlocks size) equals: 6.
+	self assert: alignedBlocks size equals: 6
