@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) [2023] [Lynda AGOUAZI, Nour CHAMI, Thilelli SAHNOUNE]
+Copyright (c) [2023] [ Trevor BRUNIAUX, Paul VANHEE, Simon LAGNEAU	]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
