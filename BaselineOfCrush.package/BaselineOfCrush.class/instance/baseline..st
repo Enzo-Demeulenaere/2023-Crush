@@ -7,8 +7,8 @@ baseline: spec
 		with: [ spec repository: 'github://Ducasse/Myg:v1.0.1/src' ].
 
 	spec
-		package: 'crush3p' 
+		package: 'Crush' 
 		with: [ spec requires: #( 'Myg' ) ];
-		package: 'crush3p-Tests'
-		with: [ spec requires: #( 'crush3p' ) ];
+		package: 'Crush-Tests'
+		with: [ spec requires: #( 'Crush' ) ];
 		yourself

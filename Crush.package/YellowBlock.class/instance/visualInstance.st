@@ -1,0 +1,3 @@
+visual
+visualInstance
+	^ YellowBlockElement new.

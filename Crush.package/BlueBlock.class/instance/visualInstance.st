@@ -1,0 +1,3 @@
+visual
+visualInstance
+	^ BlueBlockElement new.

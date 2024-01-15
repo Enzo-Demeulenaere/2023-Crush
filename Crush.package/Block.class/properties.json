@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MygAbstractBox",
+	"category" : "Crush-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"Icons"
+	],
+	"instvars" : [ ],
+	"name" : "Block",
+	"type" : "normal"
+}

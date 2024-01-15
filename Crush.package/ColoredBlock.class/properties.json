@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Block",
+	"category" : "Crush-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"color",
+		"score"
+	],
+	"name" : "ColoredBlock",
+	"type" : "normal"
+}

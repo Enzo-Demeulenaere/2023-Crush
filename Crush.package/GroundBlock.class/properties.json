@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "Block",
+	"category" : "Crush-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GroundBlock",
+	"type" : "normal"
+}

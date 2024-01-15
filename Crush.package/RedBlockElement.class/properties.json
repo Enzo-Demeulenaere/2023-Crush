@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BlockElement",
+	"category" : "Crush-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RedBlockElement",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MygBoard",
+	"category" : "Crush-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"totalScore",
+		"selected"
+	],
+	"name" : "Board",
+	"type" : "normal"
+}

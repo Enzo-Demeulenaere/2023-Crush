@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BlElement",
+	"category" : "Crush-UI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"board"
+	],
+	"name" : "BoardElement",
+	"type" : "normal"
+}
