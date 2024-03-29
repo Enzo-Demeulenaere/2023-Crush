@@ -1,3 +1,4 @@
 as yet unclassified
-backgroundPaint 
-	^ Color blue
+backgroundPaint
+
+	^ Color lightBlue

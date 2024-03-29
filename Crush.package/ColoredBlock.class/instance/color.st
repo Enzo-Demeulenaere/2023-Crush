@@ -1,3 +1,3 @@
 accessing
 color
-	^ self subclassResponsibility
+ ^nil

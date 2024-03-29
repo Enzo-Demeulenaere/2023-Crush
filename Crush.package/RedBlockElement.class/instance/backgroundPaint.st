@@ -1,3 +1,4 @@
 as yet unclassified
-backgroundPaint 
-	^ Color red
+backgroundPaint
+
+	^ Color lightRed

@@ -1,5 +1,5 @@
 testing
 canSwapWith: anotherBlock
 
-	anotherBlock isSwappable ifFalse: [ ^ false ].
-	^ self isAdjacent: anotherBlock
+	^ anotherBlock isSwappable and: [.
+	self isAdjacent: anotherBlock]

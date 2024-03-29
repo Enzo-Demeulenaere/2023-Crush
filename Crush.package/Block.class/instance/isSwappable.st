@@ -1,3 +1,3 @@
 testing
 isSwappable
-	^ true
+	^ true.

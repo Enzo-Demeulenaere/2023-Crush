@@ -1,3 +1,3 @@
 accessing
-score
-	^ score
+score 
+	^score 

@@ -3,4 +3,6 @@ setUp
 
 	initializedBoard := MygLevelImporter
 		                    fromString: 'BBY'
-		                    fromPackage: self package
+		                    fromPackage:
+		                    (RPackageOrganizer default packageNamed:
+			                     'crush3p')

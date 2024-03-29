@@ -9,6 +9,6 @@ openWithModel: aTField
 	space root addChild: aFieldElement.
 	space pulse
 		title: 'Crush3P - Game';
-		extent: 1900 @ 1200;
-		resizable: true;
+		extent: 1000 @ 1000;
+		resizable: false;
 		show

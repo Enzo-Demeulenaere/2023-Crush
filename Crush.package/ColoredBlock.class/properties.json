@@ -6,8 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"color",
-		"score"
+		"color"
 	],
 	"name" : "ColoredBlock",
 	"type" : "normal"

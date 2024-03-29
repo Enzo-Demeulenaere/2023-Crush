@@ -1,3 +1,3 @@
 accessing
-score: anInteger
+score: anInteger 
 	score := anInteger

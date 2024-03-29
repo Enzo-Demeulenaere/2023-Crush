@@ -7,7 +7,9 @@
 	"classvars" : [
 		"Icons"
 	],
-	"instvars" : [ ],
+	"instvars" : [
+		"score"
+	],
 	"name" : "Block",
 	"type" : "normal"
 }

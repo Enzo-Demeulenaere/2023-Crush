@@ -1,4 +1,0 @@
-visual
-visualInstance
-
-	^ self subclassResponsibility 
