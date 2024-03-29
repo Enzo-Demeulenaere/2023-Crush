@@ -1,3 +1,4 @@
 as yet unclassified
-backgroundPaint 
-	^ Color yellow
+backgroundPaint
+
+	^ Color lightYellow
